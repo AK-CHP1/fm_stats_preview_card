@@ -91,22 +91,14 @@ p {
 
 /* Styles for the aside image */
 aside {
-    position: relative;
+    background-color: var(--soft-violet);
 }
 aside>picture>img {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border-radius: 0px 8px 8px 0px;
-}
-picture::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: hsla(278, 94%, 25%, 0.5);
+    mix-blend-mode: multiply;
+    opacity: 0.8;
     border-radius: 0px 8px 8px 0px;
 }
 
@@ -139,8 +131,5 @@ picture::before {
     }
     aside {
         flex: 262.2px 40;
-    }
-    aside>picture>img, picture::before {
-        border-radius: 8px 8px 0px 0px;
     }
 }
