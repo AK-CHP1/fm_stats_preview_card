@@ -55,7 +55,7 @@ While solving this challenge I learnt CSS grids and responsive images using
 
 ### Continued development
 
-Correct box shadow for `main` and image overlay still needs to be fixed.
+Correct box shadow for `main`.
 
 ### Useful resources
 
@@ -65,3 +65,6 @@ Correct box shadow for `main` and image overlay still needs to be fixed.
 
 - Name - Aayush Kumar
 - Frontend Mentor - [@ak-chp1](https://www.frontendmentor.io/profile/ak-chp1)
+
+## Acknowledgements
+I am thankful to [@Hassiai](https://frontendmentor.io/profile/hassiai) for helping me fix the image background color.
